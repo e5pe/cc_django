@@ -44,3 +44,5 @@ Vamos a añadir un form al que le vamos a añadir información.
 `{% csrf_token %}` es Cross Site Request Forgeries. Se usa para comprobar que vengan las peticiones del front al back, no de otro medio. En resumen, todos los forms de tipo POST tienen que se dirigan a urls internas deben usar el _tag_ `{% csrf_token %}`.
 
 _action_ is what appens when you submit a form.
+
+[Seguir tutorial](https://youtu.be/JT80XhYJdBw?t=8199)

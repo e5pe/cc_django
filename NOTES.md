@@ -58,3 +58,24 @@ Los tests ayudan a que los equipos trabajen mejor juntos.
 
 `manage.py test polls` busca subclases de TestCase, crea una base de datos especial para _testing_ y luego busca los tests, es decir, aquellos métodos que empiezan con _test_. En el caso del tutorial:
 **test_was_published_recently_with_future_question**.
+
+Luego hemos creado algún test más porque es importante asegurarnos de que los métodos que creamos funcionan de la forma esperada, y si dejan de funcionar bien lo sepamos .
+
+Tests para vistas
+
+Necesitamos herramientas especiales para esto, en este caso:
+
+```shell
+>>> from django.test.utils import setup_test_environment
+>>> setup_test_environment()
+```
+
+Esto instala un _template_ o plantilla que nos permite examinar atributos adicionales en respuestas como `response.context` que de otra forma no estarían disponibles.
+
+Con este trozo de código ya podemos pedirle al _Client_ que haga trabajo por nosotros:
+
+```shell
+>>> from django.test import Client
+>>> # create an instance of the client for our use
+>>> client = Client()
+```

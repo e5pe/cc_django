@@ -61,7 +61,7 @@ Los tests ayudan a que los equipos trabajen mejor juntos.
 
 Luego hemos creado algún test más porque es importante asegurarnos de que los métodos que creamos funcionan de la forma esperada, y si dejan de funcionar bien lo sepamos .
 
-Tests para vistas
+### Tests para vistas
 
 Necesitamos herramientas especiales para esto, en este caso:
 

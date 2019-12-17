@@ -50,3 +50,11 @@ El código de votar una opción tiene un pequeño problema. Primero obtiene la o
 Esto se conoce como una **_race condition_**. Puedes leer más [aquí](https://docs.djangoproject.com/en/3.0/ref/models/expressions/#avoiding-race-conditions-using-f).
 
 [Seguir tutorial](https://youtu.be/JT80XhYJdBw?t=9380)
+
+## Automated testing
+
+Los tests te ahorrarán tiempo. Ya que te ayudarán a encontrar las causas de errores antes. Si están bien hechos, reforzarán la calidad del código. Porque además de identificar problemas, te ayudan a prevenirlos.
+Los tests ayudan a que los equipos trabajen mejor juntos.
+
+`manage.py test polls` busca subclases de TestCase, crea una base de datos especial para _testing_ y luego busca los tests, es decir, aquellos métodos que empiezan con _test_. En el caso del tutorial:
+**test_was_published_recently_with_future_question**.

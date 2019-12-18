@@ -79,3 +79,8 @@ Con este trozo de código ya podemos pedirle al _Client_ que haga trabajo por no
 >>> # create an instance of the client for our use
 >>> client = Client()
 ```
+
+`return Question.objects.filter(pub_date__lte=timezone.now())`
+lte significa _less than or equal to_.
+
+[Seguir tutorial](https://youtu.be/JT80XhYJdBw?t=12442)

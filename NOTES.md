@@ -84,3 +84,18 @@ Con este trozo de código ya podemos pedirle al _Client_ que haga trabajo por no
 lte significa _less than or equal to_.
 
 [Seguir tutorial](https://youtu.be/JT80XhYJdBw?t=12442)
+
+### Más testing
+
+Nos habla de que hay más herramientas para hacer tests como [Selenium](http://seleniumhq.org/). Además de los tests de covertura con _[coverage.py](https://docs.djangoproject.com/en/3.0/topics/testing/advanced/#topics-testing-code-coverage)_.
+
+## Static files
+
+[Seguir tutorial](https://youtu.be/JT80XhYJdBw?t=12707)
+
+Vamos a ver cómo funcionan en django y cómo usarlos para personalizar el estilo de nuestras aplicaciones.
+
+Django buscará una carpeta llamada _static_ en cada una de sus apps instaladas.
+
+Esto hace que podamos cargar ficheros estáticos:
+`{% load static %}`

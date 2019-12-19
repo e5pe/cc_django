@@ -99,3 +99,9 @@ Django buscará una carpeta llamada _static_ en cada una de sus apps instaladas.
 
 Esto hace que podamos cargar ficheros estáticos:
 `{% load static %}`
+
+## Full-Stack Web App
+
+### Personalizar el form de admin
+
+[Seguir tutorial](https://youtu.be/JT80XhYJdBw?t=13708)
